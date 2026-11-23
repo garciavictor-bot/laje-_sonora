@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +41,7 @@ h1, h2, h3 {
   padding-inline: 32px;
 }
 
-/* 10. CSS do topo com flex */
+
 .topo {
   padding-block: 28px;
   display: flex;
@@ -75,7 +76,7 @@ h1, h2, h3 {
   border-bottom-color: var(--fita);
 }
 
-/* 11. CSS dos cartazes */
+
 .cartazes {
   margin-top: 16px;
   display: flex;
@@ -129,7 +130,7 @@ h1, h2, h3 {
   background-color: var(--caixa-dagua);
 }
 
-/* 12. CSS dos cards */
+
 .secao {
   margin-top: 96px;
 }
@@ -188,4 +189,53 @@ h1, h2, h3 {
   font-size: 15px;
   display: flex;
   justify-content: space-between;
+}
+
+
+.passos {
+  display: flex;
+  gap: 24px;
+}
+
+.passo {
+  border-top: 6px solid var(--tinta);
+  padding-top: 20px;
+  flex: 1;
+}
+
+.passo-numero {
+  font-family: var(--fonte-cartaz);
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--caixa-dagua);
+}
+
+.passo h3 {
+  font-size: 32px;
+  margin-block: 8px 12px;
+}
+
+
+.rodape {
+  margin-top: 120px;
+  background-color: var(--tinta);
+  color: var(--concreto);
+  padding-block: 56px;
+}
+
+.rodape-colunas {
+  display: flex;
+  gap: 40px;
+}
+
+.rodape-coluna {
+  flex: 1;
+}
+
+.rodape h4 {
+  font-family: var(--fonte-cartaz);
+  font-size: 28px;
+  color: var(--fita);
+  margin-bottom: 12px;
 }
